@@ -1,7 +1,7 @@
 # Emergency Alert Automation for iOS
 
 ## Overview
-This guide explains how to set up automation on an iPhone to send emergency text messages and, optionally, call a designated contact. Additionally, it includes a separate automation to ensure that incoming emergency messages from designated contacts are noticed by disabling "Do Not Disturb" and "Silent" modes and setting the ringtone volume to maximum.
+This guide explains how to set up automation on an iPhone to send emergency messages to, and optionally call, a designated emergency contact. Additionally, it includes a separate, trigger-based automation to ensure that incoming message notifications and calls are audible by disabling "Do Not Disturb" and "Silent" modes, and setting the ringtone volume to maximum when a message including a specified string is received from a list of designated contacts.
 
 ## Features
 1. **Send an Emergency Alert:**
