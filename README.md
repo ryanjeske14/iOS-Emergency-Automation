@@ -32,9 +32,18 @@ This guide explains how to set up automation on an iPhone to send emergency text
 6. On the step **Send "Current Location" to Recipients**, tap **Recipients** and select your emergency contact from your Contacts list.
 7. On the step **Choose from menu with...**, tap the step and replace `<NAME>` with the name of your emergency contact (e.g., `Do you want to call Ryan?`).
 8. On the **Call Contact** step under the **Yes** option, tap **Contact** and select your emergency contact from your Contacts list.
-9. OPTIONAL - tap the dropdown next to the shortcut name and choose **Add to Home Screen**. Tap the name under the icon to edit it and set it to the name of your emergency contact (e.g., `Ryan`). Now, you can run the shortcut by clicking the associated shortcut icon from your home screen (i.e., apps view). 
-10. OPTIONAL - if you set up multiple emergency contact shortcuts and add them to your homescreen, combine them into one folder and name the folder `Emergency`.  
-11. Tap **Done** on the top right corner of the screen.
+9. OPTIONAL - tap the dropdown next to the shortcut name and choose **Add to Home Screen**. Tap the name under the icon to edit it and set it to the name of your emergency contact (e.g., `Ryan`). Now, you can run the shortcut by clicking the associated shortcut icon from your home screen (i.e., apps view).
+10. OPTIONAL - if you set up multiple emergency contact shortcuts and add them to your homescreen, combine them into one folder and name the folder `Emergency`.
+For example:
+<img src="./images/shortcut_folder.jpg" width="100"> 
+12. Tap **Done** on the top right corner of the screen.
+
+
+**Example of Final Setup:**
+<br>
+
+<img src="./images/shortcut_1.jpg" width="300">
+<img src="./images/shortcut_2.jpg" width="300">
 
 ### 2. Create the Emergency Automation
 1. Open the **Shortcuts** app and go to the **Automation** tab at the bottom of the screen.
@@ -51,6 +60,11 @@ This guide explains how to set up automation on an iPhone to send emergency text
 13. Tap **Seach Actions** again to add another action.
 14. Search for and select **Set Volume**. Tap the volume type (e.g., **Media**) and select **Ringtone**. Then, set the volume level to 100%.
 15. Tap **Done** to save the automation.
+
+**Final Setup:**
+<br>
+
+<img src="./images/automation.jpg" width="300">
 
 ## Testing the Setup
 - You can test the setup by adding yourself as a contact in your Contacts app. Then, go through the steps under **1. Create the Emergency Shortcut** using yourself as the contact. Then, on step 5 under **2. Create the Emergency Automation**, add yourself to the Sender list.
