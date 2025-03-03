@@ -6,13 +6,13 @@ This guide explains how to set up automation on an iPhone to send emergency mess
 ## Features
 1. **Send an Emergency Alert:**
    - Uses the Shortcuts app to:
-       - Send an emergency text message containing "EMERGENCY" to a designated contact.
+       - Send an emergency text message containing "EMERGENCY 🚨" to a designated contact.
        - Send the address of your current location to a designated contact.
        - Prompt the user to call a designated contact.
 
 2. **Receive an Emergency Alert:**
    - Uses the Automation feature of the Shortcuts app to:
-       - Detect incoming messages containing "EMERGENCY".
+       - Detect incoming messages containing "EMERGENCY 🚨".
        - Disable "Do Not Disturb" mode.
        - Disable "Silent" mode.
        - Set the ringtone volume to 100%.
@@ -28,7 +28,7 @@ This guide explains how to set up automation on an iPhone to send emergency mess
 2. Tap **+ Add Shortcut**.
 3. This should take you to Shortcuts app. Find the newly-added shortcut named "Emergency - \<NAME>" and tap the three dots to edit the shortcut.
 4. On the edit screen, tap the dropdown next to the shortcut name and choose **Rename**. Replace `<NAME>` with the name of your emergency contact (e.g., `Emergency - Ryan`). 
-5. On the step **Send "EMERGENCY" to Recipients**, tap **Recipients** and select your emergency contact from your Contacts list.
+5. On the step **Send "EMERGENCY 🚨" to Recipients**, tap **Recipients** and select your emergency contact from your Contacts list.
 6. On the step **Send "Current Location" to Recipients**, tap **Recipients** and select your emergency contact from your Contacts list.
 7. On the step **Choose from menu with...**, tap the step and replace `<NAME>` with the name of your emergency contact (e.g., `Do you want to call Ryan?`).
 8. On the **Call Contact** step under the **Yes** option, tap **Contact** and select your emergency contact from your Contacts list.
@@ -51,7 +51,7 @@ For example:
 2. Tap **+** to create a new automation.
 4. Scroll down and choose **Message** as the trigger.
 5. In the **Sender** field, select one or more contacts from whom you want to be able to receive emergency messages and calls (e.g, Bob, Alice, Mom, Dad).
-6. In the **Message Contains** field, enter `EMERGENCY`.
+6. In the **Message Contains** field, enter `EMERGENCY 🚨`.
 7. Select the option for **Run Immediately**.
 8. Tap **Next**.
 9. Tap **New Blank Automation**
@@ -72,7 +72,7 @@ For example:
 - Enable "Silent" mode, enable "Do Not Disturb" mode, and set your ringtone volume to any value less than 100%.
 - Manually run the shortcut (the one you created for yourself for testing).
 - Expected Results:
-    - Message `EMERGENCY` sent to yourself.
+    - Message `EMERGENCY 🚨` sent to yourself.
     - Message containing the address of your location sent to yourself.
     - A promt asking if you want to call yourself. You can test both options if you'd like to confirm the functionality.
     - "Do Not Disturb" mode disabled.
