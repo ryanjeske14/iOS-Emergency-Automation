@@ -36,8 +36,9 @@ This guide explains how to set up automation on an iPhone to send emergency text
 10. OPTIONAL - if you set up multiple emergency contact shortcuts and add them to your homescreen, combine them into one folder and name the folder `Emergency`.
 For example:
 <img src="./images/shortcut_folder.jpg" width="100"> 
-12. Tap **Done** on the top right corner of the screen.
+12. Tap **Done** on the top right corner of the screen.<br>
 
+<br>
 
 **Example of Final Setup:**
 <br>
